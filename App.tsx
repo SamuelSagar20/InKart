@@ -38,6 +38,7 @@ function Section({children, title}: SectionProps): React.JSX.Element {
           styles.sectionTitle,
           {
             color: isDarkMode ? Colors.white : Colors.black,
+            fontFamily: 'Poppins-SemiBold',
           },
         ]}>
         {title}
@@ -111,7 +112,7 @@ const styles = StyleSheet.create({
     fontWeight: '400',
   },
   highlight: {
-    fontWeight: '700',
+    fontFamily: 'Poppins-Bold',
   },
 });
 
